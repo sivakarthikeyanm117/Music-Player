@@ -1,0 +1,58 @@
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 18px;
+   /*  background-image: url(./wp7.jpg); */
+    color: white;
+    text-shadow: 4px 2px 8px black;
+    font-weight: 600;
+    box-shadow: 0px 5px 15px  rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px  rgba(0,0,0,0.5);
+    /*box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);*/
+    margin: 5px;
+    
+}
+p{
+    /* background-image: url(./wp7.jpg) ; */
+    display: inline-block;
+    color: white;
+    text-shadow: 4px 2px 8px black;
+    font-weight: 600;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    border-radius: 10px;
+   
+}
+input{
+    color: black;
+    display: block;
+    width: 80%;
+    
+}
+.progress-bar{
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+
+}
+.thumbnail{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.container{
+    width: 280px;
+    height: 320px;
+    background-color: black;
+    text-align: center;
+    margin: 20px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
